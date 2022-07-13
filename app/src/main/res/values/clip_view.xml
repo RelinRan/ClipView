@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--裁剪宽度-->
+    <attr name="clipWidth" format="dimension" />
+    <!--裁剪高度-->
+    <attr name="clipHeight" format="dimension" />
+    <!--蒙版颜色-->
+    <attr name="maskColor" format="color" />
+    <!--最大缩放值-->
+    <attr name="maxScale" format="float" />
+    <!--最小缩放值-->
+    <attr name="minScale" format="float" />
+    <!--裁剪图形-->
+    <attr name="clipShape" format="enum">
+        <enum name="rect" value="0" />
+        <enum name="circle" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+    <!--矩形圆角大小-->
+    <attr name="roundRadius" format="dimension" />
+    <!--图片来源-->
+    <attr name="clipSrc" format="reference"/>
+    <declare-styleable name="ClipView">
+        <attr name="clipWidth" />
+        <attr name="clipHeight" />
+        <attr name="maskColor" />
+        <attr name="maxScale" />
+        <attr name="minScale" />
+        <attr name="clipShape" />
+        <attr name="roundRadius" />
+        <attr name="clipSrc" />
+    </declare-styleable>
+</resources>
